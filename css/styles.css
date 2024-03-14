@@ -110,6 +110,10 @@ code{
     .footer-container {
         margin: 10px; /* Adjust margin for smaller screens */
     }
+
+    .submit-button{
+        margin-left: 10px ;
+    }
 }
  
   
