@@ -96,5 +96,20 @@ code{
     margin: 10px 50px 10px 100px ; 
 }
 
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    
+    .test-header,
+    .question {
+        margin-left: 10px; /* Adjust margins for smaller screens */
+    }
+    
+    .footer-container {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+}
  
   
