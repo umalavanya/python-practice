@@ -99,7 +99,7 @@ code{
 
 @media only screen and (max-width: 768px) {
     .container {
-        width: 90%; /* Adjust width for smaller screens */
+        width: auto; /* Adjust width for smaller screens */
     }
     
     .test-header,
