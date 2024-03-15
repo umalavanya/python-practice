@@ -76,7 +76,7 @@ button:hover {
 
 
 code{
-    font-size: 2vw;
+    font-size: 18px;
 }
 
 .indent {
@@ -118,6 +118,10 @@ code{
     .question {
         margin : 5% 0.5% 5% 1% ;
     
+    }
+
+    code{
+        font-size: 2vw;
     }
 
 }
