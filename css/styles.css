@@ -35,7 +35,7 @@ body {
 
 .question {
     margin : 5% 2.5% 5% 5% ;
-    font-size: 18px;
+    
 
 }
 
@@ -73,6 +73,7 @@ button:hover {
 .question p {
     text-align: justify;
     line-height: 2;
+    font-size: 18px;
 }
 
 
@@ -118,8 +119,12 @@ code{
 
     .question {
         margin : 5% 0.5% 5% 1% ;
-        font-size: 3vw;
+        
     
+    }
+
+    .question>p{
+        font-size: 3vw;
     }
 
     code{
