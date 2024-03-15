@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Python Test</title>
+</head>
+<body>
+    <div class="container ">
+        <h1>Practice Test -2 </h1>
+        <p><center>by</center>. <br /><center> Dr. Umalavanya Chintapanti</center></p>
+        
+        <hr />
+        <form id="examForm">
+            <div class="question">
+                <h4>Topic: formatting</h4>
+                <p>Read <a href="https://docs.python.org/3/tutorial/inputoutput.html">7.1 Fancier Output formatting</a> before starting the test</p>
+                
+                <h4>Question 1:</h4>
+                <p>What is the output of the following code snippet?</p>
+                <p><code class="indent">age = 25
+name = "Alice"
+print(f"My name is {name} and I am {age} years old.")</code></p>
+                <label><input type="radio" name="q1_alt" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) My name is Alice and I am 25 years old.</code></label>
+                <label><input type="radio" name="q1_alt" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) My name is name and I am age years old.</code></label>
+                <label><input type="radio" name="q1_alt" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) My name is {name} and I am {age} years old.</code></label>
+                <label><input type="radio" name="q1_alt" value="d"><span style="margin-right: 10px;"></span><code class="indent">d) My name is "Alice" and I am 25 years old.</code></label>
+            </div>
+
+            <div class="question">
+                <h4>Question 2:</h4>
+                <p>What will be the output of the following code?</p>
+                <p><code class="indent">name = "John"
+age = 30
+print(f"Hello, {name}. You are {age + 5} years old.")</code></p>
+                <label><input type="radio" name="q2_alt" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) Hello, John. You are {age + 5} years old.</code></label>
+                <label><input type="radio" name="q2_alt" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) Hello, name. You are 35 years old.</code></label>
+                <label><input type="radio" name="q2_alt" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) Hello, John. You are 35 years old.</code></label>
+                <label><input type="radio" name="q2_alt" value="d"><span style="margin-right: 10px;"></span><code class="indent">d) Hello, "John". You are 35 years old.</code></label>
+            </div>
+
+            <div class="question">
+                <h4>Question 3:</h4>
+                <p>What is the output of the following code?</p>
+                <p><code class="indent">name = "Emily"
+age = 28
+print("Hello, {}. You are {} years old.".format(name, age))</code></p>
+                <label><input type="radio" name="q3" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) Hello, {}. You are {} years old.</code></label>
+                <label><input type="radio" name="q3" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) Hello, Emily. You are 28 years old.</code></label>
+                <label><input type="radio" name="q3" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) Hello, name. You are age years old.</code></label>
+                <label><input type="radio" name="q3" value="d"><span style="margin-right: 10px;"></span><code class="indent">d) Hello, "Emily". You are 28 years old.</code></label>
+            </div>
+            
+
+            <div class="question">
+                <h4>Question 4:</h4>
+                <p>What will be the output of the following code?</p>
+                <p><code class="indent">name = "Sophia"
+age = 22
+print("My name is {}. I am {} years old.".format(name, age))</code></p>
+                <label><input type="radio" name="q4" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) My name is {}. I am {} years old.</code></label>
+                <label><input type="radio" name="q4" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) My name is "Sophia". I am 22 years old.</code></label>
+                <label><input type="radio" name="q4" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) My name is name. I am age years old.</code></label>
+                <label><input type="radio" name="q4" value="d"><span style="margin-right: 10px;"></span><code class="indent">d) My name is Sophia. I am 22 years old.</code></label>
+            </div>
+
+            <div class="question">
+                <h4>Question 5:</h4>
+                <p>What will be the output of the following code?</p>
+                <p><code class="indent">name = "Alice"
+age = 30
+print("{:<10} is {:>5} years old.".format(name, age))</code></p>
+                <label><input type="radio" name="q5" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) Alice     is     30 years old.</code></label>
+                <label><input type="radio" name="q5" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) Alice     is 30     years old.</code></label>
+                <label><input type="radio" name="q5" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) Alice is 30 years old.</code></label>
+                <label><input type="radio" name="q5" value="d"><span style="margin-right: 10px;"></span><code class="indent">d) Alice     is     30     years old.</code></label>
+            </div>
+            
+
+            <div class="question">
+                <h4>Question 6:</h4>
+                <p>What is the output of the following code?</p>
+                <p><code class="indent">name = "Bob"
+age = 25
+print("{:>10} is {:<5} years old.".format(name, age))</code></p>
+                <label><input type="radio" name="q6" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) Bob         is 25   years old.</code></label>
+                <label><input type="radio" name="q6" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) Bob         is   25 years old.</code></label>
+                <label><input type="radio" name="q6" value="c"><span style="margin-right: 10px;"></span><code class="indent">c)         Bob is 25 years old.</code></label>
+                <label><input type="radio" name="q6" value="d"><span style="margin-right: 10px;"></span><code class="indent">d)         Bob is   25 years old.</code></label>
+            </div>
+                
+
+
+            <div class="question">
+                <h4>Question 7:</h4>
+                <p>What will be the output of the following code?</p>
+                <p><code class="indent">num = 10.5678
+print("{:.2f}".format(num))</code></p>
+                <label><input type="radio" name="q7" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) 10.57</code></label>
+                <label><input type="radio" name="q7" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) 10.56</code></label>
+                <label><input type="radio" name="q7" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) 10.5678</code></label>
+                <label><input type="radio" name="q7" value="d"><span style="margin-right: 10px;"></span><code class="indent">d) 10.50</code></label>
+            </div>
+
+            <div class="question">
+                <h4>Question 8:</h4>
+                <p>What is the output of the following code?</p>
+                <p><code class="indent">value = 12345
+print("{:10.2f}".format(value))</code></p>
+                <label><input type="radio" name="q8" value="a"><span style="margin-right: 10px;"></span><code class="indent">a)   12345.00</code></label>
+                <label><input type="radio" name="q8" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) 12345.00</code></label>
+                <label><input type="radio" name="q8" value="c"><span style="margin-right: 10px;"></span><code class="indent">c)      12345</code></label>
+                <label><input type="radio" name="q8" value="d"><span style="margin-right: 10px;"></span><code class="indent">d) 12345</code></label>
+            </div>
+
+
+            <div class="question">
+                <h4>Question 9:</h4>
+                <p>What will be the output of the following code?</p>
+                <p><code class="indent">value = 9876.54321
+print("{:10.3f}".format(value))</code></p>
+                <label><input type="radio" name="q9" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) 9876.54</code></label>
+                <label><input type="radio" name="q9" value="b"><span style="margin-right: 10px;"></span><code class="indent">b)   9876.543</code></label>
+                <label><input type="radio" name="q9" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) 9876.543</code></label>
+                <label><input type="radio" name="q9" value="d"><span style="margin-right: 10px;"></span><code class="indent">d)  9876.543</code></label>
+            </div>
+
+            <div class="question">
+                <h4>Question 10:</h4>
+                <p>What will be the output of the following code?</p>
+                <p><code class="indent">value = 1234.56789
+print("%10.2f" % value)</code></p>
+                <label><input type="radio" name="q10" value="a"><span style="margin-right: 10px;"></span><code class="indent">a) 1234.5678</code></label>
+                <label><input type="radio" name="q10" value="b"><span style="margin-right: 10px;"></span><code class="indent">b) 1234.57</code></label>
+                <label><input type="radio" name="q10" value="c"><span style="margin-right: 10px;"></span><code class="indent">c) 1234.56</code></label>
+                <label><input type="radio" name="q10" value="d"><span style="margin-right: 10px;"></span><code class="indent">d)    1234.56</code></label>
+            </div>
+        
+            <!-- Add more questions here -->
+
+            <button class="submit-button" type="button" onclick="calculateScore()">Submit</button>
+
+        </form>
+
+        <div id="result" class="hidden submit-button">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+            
+        </div>
+        <hr/>
+        <div class="footer-container">
+            <div class="footer-container-item0"><a href="./set1-print.html">Previous</a></div>
+            <div class="footer-container-item1"><a href="../index.html">Home</a></div>
+            <div class="footer-container-item2"><a href="./set3-formatting.html">Next</a></div>
+        </div>
+
+
+
+    </div>
+
+    <script src="../js/script2.js"></script>
+</body>
+</html>
