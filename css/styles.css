@@ -123,12 +123,16 @@ code{
     
     }
 
-    code, .container>h1, .container>p{
-        font-size: 2vw;
+    .container>h1, .container>*{
+        font-size: 2.5vw;
     }
 
-    .question>p,.question>h4{
-        font-size: 2vw;
+    .question>p, .question>h4{
+        font-size: 2.5vw;
+    }
+
+    code{
+        font-size: 2.5vw;
     }
 
 }
