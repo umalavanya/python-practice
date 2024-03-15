@@ -16,7 +16,7 @@ function calculateScore() {
         q7: 'a',
         q8: 'b',
         q9: 'c',
-        q10: 'b',
+        q10: 'b'
 
         // Add more answers as needed
     };
