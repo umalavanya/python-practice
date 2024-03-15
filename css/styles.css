@@ -76,6 +76,11 @@ button:hover {
     font-size: 18px;
 }
 
+.submit-button{
+    font-size: 18px;
+    
+}
+
 
 code{
     font-size: 18px;
@@ -138,6 +143,10 @@ code{
     code{
         font-size: 2.5vw;
     }
+
+    
+
+    
 
 }
  
