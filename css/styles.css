@@ -99,7 +99,7 @@ code{
 
 @media only screen and (max-width: 768px) {
     .container {
-        width: auto; /* Adjust width for smaller screens */
+        width: 100%; /* Adjust width for smaller screens */
     }
     
     .test-header,
@@ -113,6 +113,10 @@ code{
 
     .submit-button{
         margin-left: 10px ;
+    }
+
+    .question{
+        font-size:small;
     }
 }
  
